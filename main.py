@@ -8,8 +8,7 @@ def print_hi():
     # Use a breakpoint in the code line below to debug your script.
     #print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-    START_DIR = '.'
-    SEQ_DIR = 'seq'
+    START_DIR = '.'   
     OUTPUX_DIR = 'flagz2'
     nodes = []
     dir_names = [ \
@@ -60,14 +59,7 @@ def print_hi():
         # print(nodes)
         # print(f)
 
-    # create separate directory for extracting sequences
-    if not os.path.exists(SEQ_DIR):
-        os.makedirs(SEQ_DIR)
-
-    if not os.path.exists(OUTPUX_DIR):
-        os.makedirs(OUTPUX_DIR)
-
-
+  
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
